@@ -1,11 +1,12 @@
 import { Col, Container, Row, Form } from "react-bootstrap";
 
 const Intro = () => {
+    const search = (q) => {
+        console.log({ q });
+    };
     return (
         <div className="intro text-white ">
-            <Container className="d-flex justify-content-center">
-                <Form.Control placeholder="Search Movie..." />
-            </Container>
+            <input placeholder="Search Movies..." className="Movie-search" onChange={({ target }) => search(target.value)} />
         </div>
     );
 };

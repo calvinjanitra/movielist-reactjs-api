@@ -5,4 +5,8 @@
 .intro {
     height: 30%;
     width: 50%;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 16px;
 }
