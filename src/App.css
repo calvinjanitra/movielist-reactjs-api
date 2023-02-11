@@ -1,5 +1,17 @@
 .App {
     text-align: center;
+    height: 100vh;
+    background: black;
+}
+
+.intro {
+    height: 60%;
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
 }
 
 .App-header {
@@ -19,8 +31,9 @@
 
 .Movie-container {
     width: 100%;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 20px;
